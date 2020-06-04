@@ -11,9 +11,13 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  last_two_element = array.pop(2)
+  last_two_elements = array.pop(2)
 end
 
 def using_shift(array)
   first_element = array.shift
+end
+
+def using_shift(array)
+  first_two_elements = array.shift
 end
