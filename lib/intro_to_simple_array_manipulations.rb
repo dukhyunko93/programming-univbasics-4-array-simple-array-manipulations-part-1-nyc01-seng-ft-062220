@@ -13,3 +13,7 @@ end
 def pop_with_args(array)
   last_two_element = array.pop(2)
 end
+
+def using_shift(array)
+  first_element = array.shift
+end
