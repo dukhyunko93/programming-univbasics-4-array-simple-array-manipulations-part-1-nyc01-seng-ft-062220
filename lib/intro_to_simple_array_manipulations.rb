@@ -9,3 +9,7 @@ end
 def using_pop(array)
   last_element = array.pop
 end
+
+def pop_with_args(array)
+  last_two_element = array.pop(2)
+end
